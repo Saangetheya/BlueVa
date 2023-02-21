@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="loadbg" fitHeight="120.0" fitWidth="135.0" focusTraversable="true" layoutX="50.0" layoutY="42.0" opacity="0.91" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Assets/bg2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="255.0" layoutY="62.0" text="LaHIIIIIIbel" />
+   </children>
+</AnchorPane>
