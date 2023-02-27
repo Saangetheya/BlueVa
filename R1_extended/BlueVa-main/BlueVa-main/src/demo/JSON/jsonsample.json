@@ -1,0 +1,17 @@
+{
+    "$schema" : "./jsonschema.json",
+    "className": "",
+    "codeId": "",
+    "method": [
+        {
+            "name": "mysamplemethod",
+            "codeId": "needed for polymorphism",
+            "code": "",
+            "tags": [
+                {
+                    "name": "mysampletagName"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "className",
+        "codeId",
+        "method"
+    ],
+    "properties": {
+        "className": {
+            "type": "string",
+            "default": "",
+            "title": "The className Schema",
+            "examples": [
+                ""
+            ]
+        },
+        "codeId": {
+            "type": "string",
+            "default": "",
+            "title": "The codeId Schema",
+            "examples": [
+                ""
+            ]
+        },
+        "method": {
+            "type": "array",
+            "default": [],
+            "title": "The method Schema",
+            "items": {
+                "type": "object",
+                "default": {},
+                "title": "A Schema",
+                "required": [
+                    "name",
+                    "codeId",
+                    "code",
+                    "tags"
+                ],
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The name Schema",
+                        "examples": [
+                            "mysamplemethod"
+                        ]
+                    },
+                    "codeId": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The codeId Schema",
+                        "examples": [
+                            "needed for polymorphism"
+                        ]
+                    },
+                    "code": {
+                        "type": "string",
+                        "default": "",
+                        "title": "The code Schema",
+                        "examples": [
+                            ""
+                        ]
+                    },
+                    "tags": {
+                        "type": "array",
+                        "default": [],
+                        "title": "The tags Schema",
+                        "items": {
+                            "type": "object",
+                            "default": {},
+                            "title": "A Schema",
+                            "required": [
+                                "name"
+                            ],
+                            "properties": {
+                                "name": {
+                                    "type": "string",
+                                    "default": "",
+                                    "title": "The name Schema",
+                                    "examples": [
+                                        "mysampletagName"
+                                    ]
+                                }
+                            },
+                            "examples": [{
+                                "name": "mysampletagName"
+                            }]
+                        },
+                        "examples": [
+                            [{
+                                "name": "mysampletagName"
+                            }]
+                        ]
+                    }
+                },
+                "examples": [{
+                    "name": "mysamplemethod",
+                    "codeId": "needed for polymorphism",
+                    "code": "",
+                    "tags": [{
+                        "name": "mysampletagName"
+                    }]
+                }]
+            },
+            "examples": [
+                [{
+                    "name": "mysamplemethod",
+                    "codeId": "needed for polymorphism",
+                    "code": "",
+                    "tags": [{
+                        "name": "mysampletagName"
+                    }]
+                }]
+            ]
+        }
+    },
+    "examples": [{
+        "className": "",
+        "codeId": "",
+        "method": [{
+            "name": "mysamplemethod",
+            "codeId": "needed for polymorphism",
+            "code": "",
+            "tags": [{
+                "name": "mysampletagName"
+            }]
+        }]
+    }]
+}
