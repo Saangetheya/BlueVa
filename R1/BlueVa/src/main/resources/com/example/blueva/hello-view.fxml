@@ -3,21 +3,20 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
-<?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hellofx.Controller">
    <children>
-      <TextField layoutX="182.0" layoutY="70.0" prefHeight="25.0" prefWidth="161.0" promptText="Enter Attribute Name" />
+      <TextField fx:id="n1" layoutX="182.0" layoutY="70.0" prefHeight="25.0" prefWidth="161.0" promptText="Enter Attribute Name" />
       <Label layoutX="12.0" layoutY="70.0" text="Name">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="12.0" layoutY="108.0" text="Return Type">
+      <Label layoutX="12.0" layoutY="108.0" text="Type">
          <font>
             <Font size="16.0" />
          </font>
@@ -50,12 +49,12 @@
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <Label layoutX="7.0" layoutY="404.0" text="Access Modifiers">
+      <Label layoutX="12.0" layoutY="236.0" text="Access Modifiers">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <RadioButton layoutX="264.0" layoutY="395.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="private">
+      <RadioButton fx:id="p2" layoutX="262.0" layoutY="237.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="private">
          <font>
             <Font size="14.0" />
          </font>
@@ -63,17 +62,17 @@
             <ToggleGroup fx:id="access" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton layoutX="349.0" layoutY="394.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="proctected" toggleGroup="$access">
+      <RadioButton fx:id="p3" layoutX="346.0" layoutY="238.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="proctected" toggleGroup="$access">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <Label layoutX="6.0" layoutY="434.0" text="Non Access Modifiers">
+      <Label layoutX="12.0" layoutY="271.0" text="Non Access Modifiers">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <RadioButton alignment="TOP_LEFT" contentDisplay="RIGHT" graphicTextGap="2.0" layoutX="204.0" layoutY="434.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="58.0" text="final " textAlignment="CENTER">
+      <RadioButton fx:id="f1" alignment="TOP_LEFT" contentDisplay="RIGHT" graphicTextGap="2.0" layoutX="186.0" layoutY="274.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="58.0" text="final " textAlignment="CENTER">
          <font>
             <Font size="14.0" />
          </font>
@@ -81,18 +80,24 @@
             <ToggleGroup fx:id="field" />
          </toggleGroup>
       </RadioButton>
-      <RadioButton layoutX="279.0" layoutY="431.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="static" toggleGroup="$field">
+      <RadioButton fx:id="f2" layoutX="271.0" layoutY="274.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="static" toggleGroup="$field">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <Button layoutX="409.0" layoutY="439.0" mnemonicParsing="false" text="Add" />
+      <Label layoutX="13.0" layoutY="202.0" text="Value">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name1" layoutX="182.0" layoutY="202.0" />
+      <Button layoutX="290.0" layoutY="327.0" mnemonicParsing="false" onAction="#Add" text="Add" />
       <RadioButton fx:id="rb5" layoutX="248.0" layoutY="134.0" mnemonicParsing="false" text="string" toggleGroup="$type">
          <font>
             <Font size="14.0" />
          </font>
       </RadioButton>
-      <RadioButton layoutX="186.0" layoutY="395.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="public" toggleGroup="$access">
+      <RadioButton fx:id="p1" layoutX="187.0" layoutY="238.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="public" toggleGroup="$access">
          <font>
             <Font size="14.0" />
          </font>
@@ -123,17 +128,11 @@
          </toggleGroup>
       </RadioButton>
       <RadioButton fx:id="r12" disable="true" layoutX="256.0" layoutY="206.0" mnemonicParsing="false" text="false" toggleGroup="$rb" visible="false" />
-      <TextArea layoutX="180.0" layoutY="190.0" prefHeight="143.0" prefWidth="278.0" promptText="Enter your codel" />
-      <Label layoutX="12.0" layoutY="206.0" text="Body">
+      <Button fx:id="cl1" layoutX="211.0" layoutY="327.0" mnemonicParsing="false" text="Clear" />
+      <RadioButton fx:id="p4" layoutX="454.0" layoutY="238.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="default" toggleGroup="$access">
          <font>
-            <Font size="16.0" />
+            <Font size="14.0" />
          </font>
-      </Label>
-      <Label layoutX="12.0" layoutY="369.0" text="Parameters">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Label>
-      <TextField layoutX="179.0" layoutY="363.0" promptText="Enter Parameters" />
+      </RadioButton>
    </children>
 </AnchorPane>
