@@ -5,11 +5,14 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 
+import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
+import javafx.scene.control.ToggleGroup;
 
 import java.util.Scanner;
 
+import static com.sun.beans.introspect.ClassInfo.clear;
 
 
 public class Controller {
@@ -26,11 +29,36 @@ public class Controller {
     public RadioButton rb6;
     public RadioButton rb7;
     public RadioButton rb8;
-    public RadioButton rb9,r11,r12;
+    public RadioButton rb9,r11,r12,p1,p2,p3,p4,f1,f2;
+    public Button cl1;
 
     public TextField name1;
+    public TextField n1;
 
     private ChangeListener<String> currentListener;
+    public void clear() {
+        name1.clear();
+        n1.clear();
+        rb1.setSelected(false);
+        rb2.setSelected(false);
+        rb3.setSelected(false);
+        rb4.setSelected(false);
+        rb5.setSelected(false);
+        rb6.setSelected(false);
+        rb7.setSelected(false);
+        rb8.setSelected(false);
+        rb9.setSelected(false);
+        r11.setSelected(false);
+        r12.setSelected(false);
+
+        p1.setSelected(false);
+        p2.setSelected(false);
+        p3.setSelected(false);
+        p4.setSelected(false);
+        f1.setSelected(false);
+        f2.setSelected(false);
+    }
+
 
     private EventHandler<ActionEvent> radioButtonHandler = event -> {
         if (currentListener != null) {
@@ -152,7 +180,7 @@ public class Controller {
             };
         }
 
-        name1.textProperty().addListener(currentListener);
+
     };
 
 
@@ -168,6 +196,8 @@ public class Controller {
         rb7.setOnAction(radioButtonHandler);
         rb8.setOnAction(radioButtonHandler);
         rb9.setOnAction(radioButtonHandler);
+        cl1.setOnAction(event -> clear());
+
     }
 
 
