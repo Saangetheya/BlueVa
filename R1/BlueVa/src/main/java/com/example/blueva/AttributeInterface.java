@@ -1,5 +1,4 @@
 package com.example.hellofx;
-
 import javafx.beans.value.ChangeListener;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -8,14 +7,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextField;
-import javafx.scene.control.ToggleGroup;
 
-import java.util.Scanner;
-
-import static com.sun.beans.introspect.ClassInfo.clear;
-
-
-public class Controller {
+public class AttributeInterface {
     @FXML
 
     public void Add(ActionEvent e){
@@ -29,12 +22,10 @@ public class Controller {
     public RadioButton rb6;
     public RadioButton rb7;
     public RadioButton rb8;
-    public RadioButton rb9,r11,r12,p1,p2,p3,p4,f1,f2;
+    public RadioButton rb9,r11,r12;
     public Button cl1;
-
     public TextField name1;
     public TextField n1;
-
     private ChangeListener<String> currentListener;
     public void clear() {
         name1.clear();
@@ -48,25 +39,15 @@ public class Controller {
         rb7.setSelected(false);
         rb8.setSelected(false);
         rb9.setSelected(false);
-        r11.setSelected(false);
-        r12.setSelected(false);
 
-        p1.setSelected(false);
-        p2.setSelected(false);
-        p3.setSelected(false);
-        p4.setSelected(false);
-        f1.setSelected(false);
-        f2.setSelected(false);
     }
-
-
     private EventHandler<ActionEvent> radioButtonHandler = event -> {
         if (currentListener != null) {
             name1.textProperty().removeListener(currentListener);
         }
 
         if (rb1.isSelected()) {
-           // name1.setDisable(false);
+            // name1.setDisable(false);
             name1.clear();
             r11.setVisible(false);
             r12.setVisible(false);
@@ -182,10 +163,6 @@ public class Controller {
 
 
     };
-
-
-
-
     public void initialize() {
         rb1.setOnAction(radioButtonHandler);
         rb2.setOnAction(radioButtonHandler);
@@ -199,7 +176,6 @@ public class Controller {
         cl1.setOnAction(event -> clear());
 
     }
-
 
 
 
