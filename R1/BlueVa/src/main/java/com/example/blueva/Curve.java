@@ -18,8 +18,8 @@ public class Curve extends Application {
         line = new Line();
         line.setStartX(100);
         line.setStartY(100);
-        line.setEndX(200);
-        line.setEndY(200);
+        line.setEndX(100);
+        line.setEndY(100);
 
         Circle startNode = createNode(line.getStartX(), line.getStartY());
         Circle endNode = createNode(line.getEndX(), line.getEndY());
