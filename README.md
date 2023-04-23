@@ -45,14 +45,14 @@ Note: GUI part comes under frontend part of this app
 ## Links
 1. Workflow Link [Link](https://drive.google.com/file/d/1d5iuXdy5BAa6lV574-3G1fSnnQo9vdFI/view?usp=share_link)
 
-## Screenshots (only backend )
+## Screenshots (only frontend)
 
-#### Class
-![Class-I](https://drive.google.com/uc?export=view&id=1_UyhBozalVudUYBM5BrzPHqG8hPXIY9t)
-![Class-II](https://drive.google.com/uc?export=view&id=1dpv5I_j2qg3v7zeyKbYgrK05Ct9k2A-M)
-
-#### Interfaces
-![Interface](https://drive.google.com/uc?export=view&id=1M79q3Z3YYDcxILJged_-QZCawk5pNQjb)
-
-#### Enums
-![Enums](https://drive.google.com/uc?export=view&id=1M79q3Z3YYDcxILJged_-QZCawk5pNQjb)
+![Class-I](https://drive.google.com/uc?export=view&id=1HyU9udRyuj-B3NyGEUzrvVx4GMCYhsKp)
+![Class-I](https://drive.google.com/uc?export=view&id=1ocio3iSBke7L1-tnsX5T4lRFobvc0Zrj)
+![Class-I](https://drive.google.com/uc?export=view&id=1JxKI-mtEZ9EVaFf2EE_5X9ZEtNsoWm2m)
+![Class-I](https://drive.google.com/uc?export=view&id=1rBazxsD36zDuBxawigpcL2DU067j1ZeU)
+![Class-I](https://drive.google.com/uc?export=view&id=1n-nu_LXzq2u7cA-CxDCno8SilVnta6Ea)
+![Class-I](https://drive.google.com/uc?export=view&id=1r6cXBeu3DsUmXT-yALBb2HhoihkjYNkW)
+![Class-I](https://drive.google.com/uc?export=view&id=1wDeRp2Z5uFlgL3yK2OZNyiUXpOkmQpap)
+![Class-I](https://drive.google.com/uc?export=view&id=1t35qmM_HiVlZRVf7d2SJ8sivdXhqn7_Z)
+![Class-I](https://drive.google.com/uc?export=view&id=1Kvuw8z96sMrZy5P9eCCWcZ0XloFsr1XW)
