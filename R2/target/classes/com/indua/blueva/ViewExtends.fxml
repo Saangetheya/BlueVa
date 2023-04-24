@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="144.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indua.blueva.ViewExtends">
+   <children>
+      <Label fx:id="viewExtends" layoutY="45.0" prefHeight="54.0" prefWidth="226.0" />
+   </children>
+</AnchorPane>
