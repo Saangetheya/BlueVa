@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="150.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indua.blueva.ImportController">
+    <children>
+        <TitledPane expanded="false" layoutX="-1.0" layoutY="25.0" text="IMPORTS">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="149.0">
+               <children>
+                  <Button layoutX="10.0" layoutY="7.0" mnemonicParsing="false" onMouseClicked="#currentImport" prefHeight="26.0" prefWidth="134.0" text="CURRENT IMPORTS" />
+                  <Button layoutX="10.0" layoutY="37.0" mnemonicParsing="false" onMouseClicked="#addImport" prefHeight="26.0" prefWidth="133.0" text="ADD IMPORTS" />
+                  <Button layoutX="10.0" layoutY="70.0" mnemonicParsing="false" onMouseClicked="#deleteImports" prefHeight="26.0" prefWidth="133.0" text="DELETE" />
+               </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+        <Label layoutY="5.0" prefHeight="18.0" prefWidth="201.0" text="IMPORTS" />
+    </children>
+</AnchorPane>

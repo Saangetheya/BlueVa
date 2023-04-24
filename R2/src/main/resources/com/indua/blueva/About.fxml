@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="407.0" prefWidth="541.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indua.blueva.GenController">
+   <children>
+      <ImageView fitHeight="550.0" fitWidth="541.0" layoutX="-1.0" opacity="0.48" pickOnBounds="true" AnchorPane.bottomAnchor="0.39999999999997726" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../../../../../../../PHOTOS/assets/BlueVa.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="133.0" layoutY="14.0" prefHeight="33.0" prefWidth="274.0" text="BlueVa">
+         <font>
+            <Font name="SimSun" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="43.0" fitWidth="78.0" layoutX="343.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../PHOTOS/assets/BlueVa.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="15.0" layoutY="57.0" opacity="0.63" prefHeight="486.0" prefWidth="510.0" text="Product : Version&#10;BlueVa : 2.1.1&#10;&#10;Build Information&#10;Version: 2.1.1&#10;Date: 04-23-2023 2:10:40&#10;Developers: Abhijith Shaji, Nishanth P.&#10;Developed Using: Java 16.0.2 2021-07-20 SDK Default 16 Oracle OpenJDK version 16.0.2, Amazon Corretto 19.0.2, javafx.runtime.version=17.0.2-ea+3, sun.cpu.isalist=amd64&#10;&#10;BlueVa is a Software Engineering Tool developed for novice Java Developers. The tool contains essential functionalities to learn and better understand Java by using code blocks and immersive UI. BlueVa is a blend of two words - BluePrints and Java. BlueVa uses blueprint functionalities of code building to generate the corresponding Java source code.&#10;&#10;The users are introduced to visual programming using Java building blocks provided by BlueVa and finally the source code is generated to the required folders which can be further run and tested.&#10;&#10;THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR &#10;CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER &#10;IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." wrapText="true">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="14.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="43.0" fitWidth="78.0" layoutX="431.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../PHOTOS/assets/BlueVa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="78.0" layoutX="113.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../PHOTOS/assets/BlueVa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="78.0" layoutX="25.0" layoutY="8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../../../../../PHOTOS/assets/BlueVa.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
