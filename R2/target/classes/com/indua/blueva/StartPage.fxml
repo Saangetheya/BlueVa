@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="591.0" prefWidth="762.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.indua.blueva.StartPage">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="709.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="2.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Package">
+            <items>
+                  <MenuItem fx:id="newPackage" mnemonicParsing="false" onAction="#createPackage" text="New Package" />
+              <MenuItem fx:id="exit_page" mnemonicParsing="false" onAction="#exitPage" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#contribute" text="Contribute to BlueVa" />
+              <MenuItem fx:id="about" mnemonicParsing="false" onAction="#detailAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane fx:id="tabPane" layoutY="26.0" prefHeight="565.0" prefWidth="762.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0" />
+   </children>
+</AnchorPane>
