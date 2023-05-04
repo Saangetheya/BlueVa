@@ -1,6 +1,6 @@
-# BlueVa Frontend
+# BlueVa 
 
-## Author: 
+## Author(s): 
 
 Abhijith
 
