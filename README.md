@@ -57,8 +57,11 @@ Note: GUI part comes under frontend part of this app
 ![Class-I](https://drive.google.com/uc?export=view&id=1t35qmM_HiVlZRVf7d2SJ8sivdXhqn7_Z)
 ![Class-I](https://drive.google.com/uc?export=view&id=1Kvuw8z96sMrZy5P9eCCWcZ0XloFsr1XW)
 
-## To build
-We have used Maven build system for the project and it is suggested to use the same. Intellij IDE has intellisense which would further properly index and analyze the code as well.<br>
-The entire updated code can be cloned from R2 itself using a build system like Maven.<br>
-To run the code the Main.java file inside `R2\src\main\java\com\indua\blueva\Main.java` should be run using the specified java versions and SDK.<br>
-### Developed Using: Java 16.0.2 2021-07-20 SDK Default 16 Oracle OpenJDK version 16.0.2, Amazon Corretto 19.0.2, javafx.runtime.version=17.0.2-ea+3, sun.cpu.isalist=amd64
+## How to build and run
+We have used Maven build system for the project and it is suggested to use the same.<br/> Intellij IDE has intellisense which would further properly index and analyze the code as well.<br>
+```bash
+The entire updated code can be cloned from R2 itself using a build system like Maven.
+
+Run Main.java file inside `R2\src\main\java\com\indua\blueva\Main.java` using the specified java versions and SDK.
+```
+Developed Using: Java 16.0.2 2021-07-20 SDK Default 16 Oracle OpenJDK version 16.0.2, Amazon Corretto 19.0.2, javafx.runtime.version=17.0.2-ea+3, sun.cpu.isalist=amd64
